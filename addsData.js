@@ -27,7 +27,9 @@ export async function createAddsData() {
   const queryParams = getQueryParams()
   const COLLECTION_NAME = 'ads'
 
-  await setDoc(doc(db, COLLECTION_NAME, ip), queryParams);
+  const payload = { ...queryParams, createdAt: new Date().getTime() }
+
+  await setDoc(doc(db, COLLECTION_NAME, ip), payload);
 
   const link = document.querySelector('.link')
   link.setAttribute('href', appConfig.appStoreLink)

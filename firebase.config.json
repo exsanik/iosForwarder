@@ -1,8 +1,9 @@
 {
-  "projectId": "",
-  "appId": "",
-  "storageBucket": "",
-  "apiKey": "",
-  "authDomain": "",
-  "messagingSenderId": ""
+  "projectId": "iosforwarderfirebase",
+  "appId": "1:907467601087:web:913590acb0dfaa91db020a",
+  "storageBucket": "iosforwarderfirebase.appspot.com",
+  "apiKey": "AIzaSyAsyCAT_sCfYXafDnTcjA8hwKoMd_vhqq0",
+  "authDomain": "iosforwarderfirebase.firebaseapp.com",
+  "messagingSenderId": "907467601087"
 }
+

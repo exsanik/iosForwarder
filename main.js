@@ -1,5 +1,4 @@
 import './style.css'
-import appstoreBtn from '/giphy.gif'
 import { createAddsData } from './addsData.js'
 import {Spinner} from 'spin.js';
 
